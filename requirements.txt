@@ -1,0 +1,11 @@
+# UI framework
+PyQt5>=5.15
+# Plotting
+matplotlib>=3.7
+seaborn>=0.12
+# Data handling
+pandas>=2.0
+# PDF export
+reportlab>=4.0
+# Optional: for modern UI themes
+qtmodern>=0.2
