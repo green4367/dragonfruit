@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Flask Web App",
+			"type": "shell",
+			"command": "python3 src/app.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Flask Web App (venv)",
+			"type": "shell",
+			"command": "/Users/alexanderkoch/Development/dragonfruit/.venv/bin/python src/app.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Flask Web App (venv, patched)",
+			"type": "shell",
+			"command": "/Users/alexanderkoch/Development/dragonfruit/.venv/bin/python src/main.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Flask Web App (venv, port 5000)",
+			"type": "shell",
+			"command": "/Users/alexanderkoch/Development/dragonfruit/.venv/bin/python src/main.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
